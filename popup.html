@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leafly Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2c2929;
+            margin: 0;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #383e43;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            color: #c8cdd7;
+            margin-top: 0;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #b8bdc2;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #00a86b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #008f5b;
+        }
+    </style>
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Leafly Search</h3>
+        <input type="text" id="searchInput" placeholder="Enter strain name...">
+        <button id="searchBtn">Search</button>
+    </div>
+</body>
+</html>
