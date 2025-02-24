@@ -4,7 +4,7 @@ A basic extension that works on any Chrome based browser that quickly searches f
 
 ## Installation
 
-Download either as a zip file or clone this respository.
+Download either as a [zip file](https://github.com/michaelScopic/leafly-search/archive/refs/heads/master.zip) or clone this respository.
 
 In your browser, enter `chrome://extensions` into the search bar and enable Developer Mode.
 
